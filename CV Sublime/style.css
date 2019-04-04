@@ -1,0 +1,188 @@
+body{
+  background: #E3EDEB;
+  color: green;
+  font-size: 25px;
+  font-family: 'Slabo 27px', serif;
+}
+h1{
+  font-family: 'Slabo 27px', serif;
+  color: rgb(0, 0, 17);
+  font-weight: lighter;
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Slabo 27px', serif;
+  color: black;
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: center;
+}
+
+h3{
+font-family: 'Slabo 27px', serif;
+color: black;
+text-align: center; 
+font-weight: lighter;
+font-size: 40px;
+}
+
+h4{
+  font-family: 'Slabo 27px', serif;
+  color: black;
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: center;
+}
+
+h5{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+p{
+  color: black;
+  font-size: 20px
+}
+
+
+#banner{
+  text-align: center;
+  background-image: 
+  background-size: cover;
+  background-position: center;
+  padding: 10px 0;
+  color: white;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.card-description{
+  background-color: white;
+  border-radius: 100px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 30px;
+  margin: 16px 40px;
+  width: 700px;
+  height: 250px;
+  display: flex;
+}
+
+.avatar{
+  border-radius: 100px;
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+}
+
+ul{
+  list-style: circle;
+  color: black;
+}
+
+.card-white{ 
+  background-color: white;
+  border-radius: 100px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 30px;
+  margin: 16px 40px;
+  width: 700px;
+  margin-left: 575px;
+  color: black;
+  height: auto;
+  
+ }
+
+.cards-flexbox{
+  display: flex;
+}
+
+.cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+ .card-blue{
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 70px;
+  margin-left: 60px ;
+  text-align: ;
+  height: 1000px;
+  position: sticky;
+  right: 950px;
+  color:black;
+ }
+
+
+}
+ title{
+  font-weight: bold;
+ }
+
+ .cards-container{
+  flex: 1 0 auto;
+ }
+
+
+.dropbtn {
+  background-color: #789BFF;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 270px;
+  border-radius: 50px;
+  transition: all 0.4s ease;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: 260px;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #EDF5FF}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+  background-color: #C8EDFF;
+}
+
+
+
+

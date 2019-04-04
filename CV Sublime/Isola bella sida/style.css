@@ -1,0 +1,129 @@
+#banner{
+  text-align: center;
+  background-image: url(images/ute.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 0;
+  color: white;
+  height: 400px; 
+}
+
+body{
+  background: #EDF5FF;
+  color: rgb(5,5,23);
+  font-size: 25px;
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+}
+
+#banner h1{
+  font-size: 50px;
+}
+
+#banner p {
+  margin-bottom: 40px;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+ 	margin-left: 40px;
+ 	margin-right: 40px;
+}
+
+.card-white img {
+  margin-bottom: 20px;
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.avatar1{
+	height: 400px;
+	width: 400px;
+	margin-top: 16px;
+	border-radius: 30px;
+}
+
+.avatar2{
+	height: 400px;
+	width: 400px;
+	margin-top: 16px;
+	border-radius: 30px;
+}
+
+
+.dropbtn {
+  background-color: #789BFF;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all 0.4s ease;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #EDF5FF}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+  background-color: #C8EDFF;
+}
+
+.btn-blue {
+  background-color: #789BFF;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 50px;
+  transition: all 0.4s ease;
+}
+
+.btn-blue:hover {
+  background-color: #C8EDFF;
+}
+
+
